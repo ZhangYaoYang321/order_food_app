@@ -10,7 +10,7 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:padding="20dp"
-        android:background="#0099ff">
+        android:background="#FFA500">
         <TextView
             android:id="@+id/bigstall_back"
             android:layout_width="0dp"
@@ -64,7 +64,7 @@
         android:layout_marginRight="10dp"
         android:padding="10dp"
         android:textSize="20sp"
-        android:textColor="@color/blue"
+        android:textColor="#000000"
         android:text="菜单"/>
 
     <ListView
@@ -86,9 +86,11 @@
             android:layout_weight="1"
             android:text="购物车"
             android:textSize="18sp"
-            android:textColor="@color/purple"
+            android:textColor="@color/blue"
             android:layout_gravity="center"/>
         <TextView
+
+
             android:id="@+id/totalshow"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -101,7 +103,7 @@
             android:layout_width="0dp"
             android:layout_height="50dp"
             android:layout_weight="1"
-            android:background="@color/purple"
+            android:background="#FFA500"
             android:text="去结算"
             android:textSize="20sp"
             android:textColor="@color/white"
