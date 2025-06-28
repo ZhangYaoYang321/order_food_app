@@ -313,7 +313,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:padding="15dp"
-            android:text="点菜"
+            android:text="点餐"
             android:textAlignment="center"
             android:textSize="20sp" />
 
